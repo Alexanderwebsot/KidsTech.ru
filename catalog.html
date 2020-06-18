@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>KidsTesh.ru - catalog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<!-- title icon-->
+	<link rel="shortcut icon" href="img/Favicon.ico">
+	<!-- libs css-->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+</head>
+<body>
+<div class="index-page">
+	<div class="menu-block">
+		<div class="wrap-d">
+			<span class="catalog-title__right">
+				Подбор по параметрам
+			</span>
+			<div class="catalog__right-block">
+				<span class="catalog__right-block__title">
+					Взаимоотношения с клиентами
+				</span>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-1">
+					<label class="wrapper-checkbox__label" for="checkbox-r-1">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-2">
+					<label class="wrapper-checkbox__label" for="checkbox-r-2">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-3">
+					<label class="wrapper-checkbox__label" for="checkbox-r-3">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-4">
+					<label class="wrapper-checkbox__label" for="checkbox-r-4">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-5">
+					<label class="wrapper-checkbox__label" for="checkbox-r-5">
+						Некоторый пункт
+					</label>
+				</div>
+			</div>
+			<div class="catalog__right-block">
+				<span class="catalog__right-block__title">
+					Дополнительный фильтр
+				</span>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-6">
+					<label class="wrapper-checkbox__label" for="checkbox-r-6">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-7">
+					<label class="wrapper-checkbox__label" for="checkbox-r-7">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-8">
+					<label class="wrapper-checkbox__label" for="checkbox-r-8">
+						Некоторый пункт
+					</label>
+				</div>
+			</div>
+			<div class="catalog__right-block">
+				<span class="catalog__right-block__title">
+					Количество пользователей
+				</span>
+				<div class="flex flex-c flex-tire">
+					<input type="text" class="catalog-input__count" placeholder="от">
+					<span class="">-</span>
+					<input type="text" class="catalog-input__count" placeholder="до">
+				</div>
+			</div>
+			<div class="catalog__right-block">
+				<span class="catalog__right-block__title">
+					Длинный селектор
+				</span>
+				<div class="flex flex-c">
+					<select name="" class="select-beast">
+						<option value="1" disabled selected >Выбрать</option>
+						<option value="2">Вариант 2</option>
+						<option value="3">Вариант 3</option>
+					</select>
+				</div>
+			</div>
+			<div class="catalog__right-block">
+				<span class="catalog__right-block__title">
+					Дополнительный фильтр
+				</span>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-9">
+					<label class="wrapper-checkbox__label" for="checkbox-r-9">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-10">
+					<label class="wrapper-checkbox__label" for="checkbox-r-10">
+						Некоторый пункт
+					</label>
+				</div>
+				<div class="wrapper-checkbox">
+					<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-11">
+					<label class="wrapper-checkbox__label" for="checkbox-r-11">
+						Некоторый пункт
+					</label>
+				</div>
+			</div>
+			<a href="#" class="catalog__right__btn btn-blue">
+				Найти
+			</a>
+		</div>
+	</div>
+	<header class="header" id="header">
+		<nav class="nav" id="nav">
+			<div class="container">
+				<div class="row nav-row">
+					<div class="col-xl-3 flex flex-c col-12 nav__menu__wrapper">
+						<div class="logo-wrapper">
+							<a href="#"><img src="img/Logo.png" alt=""></a>
+						</div>
+						<div class="menu-wrapper">
+							<div class="menu-nav"></div>
+						</div>
+					</div>
+					<div class="col-xl-6">
+						<ul class="nav-list flex">
+							<li class="nav-list__item nav-list__item__active"><a href="#">Лучшие</a></li>
+							<li class="nav-list__item"><a href="#">Спецпредложения</a></li>
+							<li class="nav-list__item"><a href="#">Категории</a></li>
+							<li class="nav-list__item"><a href="#">Отрасли</a></li>
+							<li class="nav-list__item"><a href="#">Интеграторы</a></li>
+						</ul>
+					</div>
+					<div class="col-xl-3 btns-wrapper-col">
+						<div class="btns-wrapper flex">
+							<a href="#" class="btn__nav btn__register">
+								Зарегистрироваться
+							</a>
+							<a href="#" class="btn__nav btn__enter btn-blue">
+								Войти
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+</div>
+<section class="catalog-section__title" id="catalog-section__title">
+	<div class="container">
+		<a href="#" class="catalog-section__title__arrow">
+			← <span>Назад</span>
+		</a>
+		<img src="img/bootle.png" alt="">
+		<h1 class="catalog-title">
+			Выставки и музеи
+		</h1>
+		<h2 class="catalog-subtitle">
+			231 сайтов в разделе
+		</h2>
+	</div>
+</section>
+<section class="catalog-content">
+	<div class="container">
+		<div class="catalog-content-nav">
+			<div class="row catalog-content-nav__row">
+				<div class="col-xl-9">
+					<div class="catalog-searh-wrapper">
+						<input type="text" class="input-blue catalog-searh" placeholder="Поиск">
+						<img class="search-img" src="img/search.png" alt="">
+					</div>
+				</div>
+				<div class="col-xl-3">
+					<a href="#" class="catalog-content__btn btn-read">
+						Закажите подбор сервиса
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="catalog-content-center">
+			<div class="row">
+				<div class="col-xl-9">
+					<div class="catalog-content-blocks">
+						<div class="catalog-content__block">
+							<div class="block-icons">
+								<img src="img/ruble.png" alt="">
+								<img src="img/pro.png" alt="">
+								<img src="img/verifi.png" alt="">
+							</div>
+							<div class="catalog-block__img">
+								<img src="img/catalog-img.png" alt="">
+							</div>
+							<div class="catalog-block__text">
+								<h2 class="catalog-block__title">
+									Юный IT талант
+								</h2>
+								<span class="catalog-block__reit">
+									<img src="img/star.png" alt="">
+									<span class="catalog-block__reit__num">
+										5.0
+									</span>
+									<span class="catalog-block__rew">
+										(27 отзывов)
+									</span>
+								</span>
+								<h3 class="calatlog-block__subtitle">
+									Сервис для ведения бухгалтерского, налогового и кадрового учета и работы с контрагентами.
+								</h3>
+								<div class="btn-block__wrapper">
+									<a href="#" class="btn-site">
+										<img src="img/icon.png" alt="">
+										Веб сайт
+									</a>
+									<div class="btn-block__wrapper__right">
+										<div class="checkbox__wrapper">
+											<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-1">
+											<label class="wrapper-checkbox__label" for="checkbox-1">
+												В сравнение
+											</label>
+										</div>
+										<a href="#" class="btn-read btn-block__plus">
+											Использую
+										</a>
+									</div>
+								</div>
+							</div>
+							<span class="catalog-content__block__add">
+								<span class="plus">+</span>
+							</span>
+						</div>
+						<div class="catalog-content__block">
+							<div class="block-icons">
+								<img src="img/ruble.png" alt="">
+								<img src="img/pro.png" alt="">
+								<img src="img/verifi.png" alt="">
+							</div>
+							<div class="catalog-block__img">
+								<img src="img/catalog-img.png" alt="">
+							</div>
+							<div class="catalog-block__text">
+								<h2 class="catalog-block__title">
+									Юный IT талант
+								</h2>
+								<span class="catalog-block__reit">
+									<img src="img/star.png" alt="">
+									<span class="catalog-block__reit__num">
+										5.0
+									</span>
+									<span class="catalog-block__rew">
+										(27 отзывов)
+									</span>
+								</span>
+								<h3 class="calatlog-block__subtitle">
+									Сервис для ведения бухгалтерского, налогового и кадрового учета и работы с контрагентами.
+								</h3>
+								<div class="btn-block__wrapper">
+									<a href="#" class="btn-site">
+										<img src="img/icon.png" alt="">
+										Веб сайт
+									</a>
+									<div class="btn-block__wrapper__right">
+										<div class="checkbox__wrapper">
+											<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-2">
+											<label class="wrapper-checkbox__label" for="checkbox-2">
+												В сравнение
+											</label>
+										</div>
+										<a href="#" class="btn-read btn-block__plus">
+											Использую
+										</a>
+									</div>
+								</div>
+							</div>
+							<span class="catalog-content__block__add">
+								<span class="plus">+</span>
+							</span>
+						</div>
+						<div class="catalog-content__block">
+							<div class="block-icons">
+								<img src="img/ruble.png" alt="">
+								<img src="img/pro.png" alt="">
+								<img src="img/verifi.png" alt="">
+							</div>
+							<div class="catalog-block__img">
+								<img src="img/catalog-img.png" alt="">
+							</div>
+							<div class="catalog-block__text">
+								<h2 class="catalog-block__title">
+									Юный IT талант
+								</h2>
+								<span class="catalog-block__reit">
+									<img src="img/star.png" alt="">
+									<span class="catalog-block__reit__num">
+										5.0
+									</span>
+									<span class="catalog-block__rew">
+										(27 отзывов)
+									</span>
+								</span>
+								<h3 class="calatlog-block__subtitle">
+									Сервис для ведения бухгалтерского, налогового и кадрового учета и работы с контрагентами.
+								</h3>
+								<div class="btn-block__wrapper">
+									<a href="#" class="btn-site">
+										<img src="img/icon.png" alt="">
+										Веб сайт
+									</a>
+									<div class="btn-block__wrapper__right">
+										<div class="checkbox__wrapper">
+											<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-23">
+											<label class="wrapper-checkbox__label" for="checkbox-23">
+												В сравнение
+											</label>
+										</div>
+										<a href="#" class="btn-read btn-block__plus">
+											Использую
+										</a>
+									</div>
+								</div>
+							</div>
+							<span class="catalog-content__block__add">
+								<span class="plus">+</span>
+							</span>
+						</div>
+						<div class="catalog-content__block">
+							<div class="block-icons">
+								<img src="img/ruble.png" alt="">
+								<img src="img/pro.png" alt="">
+								<img src="img/verifi.png" alt="">
+							</div>
+							<div class="catalog-block__img">
+								<img src="img/catalog-img.png" alt="">
+							</div>
+							<div class="catalog-block__text">
+								<h2 class="catalog-block__title">
+									Юный IT талант
+								</h2>
+								<span class="catalog-block__reit">
+									<img src="img/star.png" alt="">
+									<span class="catalog-block__reit__num">
+										5.0
+									</span>
+									<span class="catalog-block__rew">
+										(27 отзывов)
+									</span>
+								</span>
+								<h3 class="calatlog-block__subtitle">
+									Сервис для ведения бухгалтерского, налогового и кадрового учета и работы с контрагентами.
+								</h3>
+								<div class="btn-block__wrapper">
+									<a href="#" class="btn-site">
+										<img src="img/icon.png" alt="">
+										Веб сайт
+									</a>
+									<div class="btn-block__wrapper__right">
+										<div class="checkbox__wrapper">
+											<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-3">
+											<label class="wrapper-checkbox__label" for="checkbox-3">
+												В сравнение
+											</label>
+										</div>
+										<a href="#" class="btn-read btn-block__plus">
+											Использую
+										</a>
+									</div>
+								</div>
+							</div>
+							<span class="catalog-content__block__add">
+								<span class="plus">+</span>
+							</span>
+						</div>
+						<div class="catalog-content__block">
+							<div class="block-icons">
+								<img src="img/ruble.png" alt="">
+								<img src="img/pro.png" alt="">
+								<img src="img/verifi.png" alt="">
+							</div>
+							<div class="catalog-block__img">
+								<img src="img/catalog-img.png" alt="">
+							</div>
+							<div class="catalog-block__text">
+								<h2 class="catalog-block__title">
+									Юный IT талант
+								</h2>
+								<span class="catalog-block__reit">
+									<img src="img/star.png" alt="">
+									<span class="catalog-block__reit__num">
+										5.0
+									</span>
+									<span class="catalog-block__rew">
+										(27 отзывов)
+									</span>
+								</span>
+								<h3 class="calatlog-block__subtitle">
+									Сервис для ведения бухгалтерского, налогового и кадрового учета и работы с контрагентами.
+								</h3>
+								<div class="btn-block__wrapper">
+									<a href="#" class="btn-site">
+										<img src="img/icon.png" alt="">
+										Веб сайт
+									</a>
+									<div class="btn-block__wrapper__right">
+										<div class="checkbox__wrapper">
+											<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-4">
+											<label class="wrapper-checkbox__label" for="checkbox-4">
+												В сравнение
+											</label>
+										</div>
+										<a href="#" class="btn-read btn-block__plus">
+											Использую
+										</a>
+									</div>
+								</div>
+							</div>
+							<span class="catalog-content__block__add">
+								<span class="plus">+</span>
+							</span>
+						</div>
+						<div class="catalog-content__block">
+							<div class="block-icons">
+								<img src="img/ruble.png" alt="">
+								<img src="img/pro.png" alt="">
+								<img src="img/verifi.png" alt="">
+							</div>
+							<div class="catalog-block__img">
+								<img src="img/catalog-img.png" alt="">
+							</div>
+							<div class="catalog-block__text">
+								<h2 class="catalog-block__title">
+									Юный IT талант
+								</h2>
+								<span class="catalog-block__reit">
+									<img src="img/star.png" alt="">
+									<span class="catalog-block__reit__num">
+										5.0
+									</span>
+									<span class="catalog-block__rew">
+										(27 отзывов)
+									</span>
+								</span>
+								<h3 class="calatlog-block__subtitle">
+									Сервис для ведения бухгалтерского, налогового и кадрового учета и работы с контрагентами.
+								</h3>
+								<div class="btn-block__wrapper">
+									<a href="#" class="btn-site">
+										<img src="img/icon.png" alt="">
+										Веб сайт
+									</a>
+									<div class="btn-block__wrapper__right">
+										<div class="checkbox__wrapper">
+											<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-5">
+											<label class="wrapper-checkbox__label" for="checkbox-5">
+												В сравнение
+											</label>
+										</div>
+										<a href="#" class="btn-read btn-block__plus">
+											Использую
+										</a>
+									</div>
+								</div>
+							</div>
+							<span class="catalog-content__block__add">
+								<span class="plus">+</span>
+							</span>
+						</div>
+						<div class="catalog-content__block">
+							<div class="block-icons">
+								<img src="img/ruble.png" alt="">
+								<img src="img/pro.png" alt="">
+								<img src="img/verifi.png" alt="">
+							</div>
+							<div class="catalog-block__img">
+								<img src="img/catalog-img.png" alt="">
+							</div>
+							<div class="catalog-block__text">
+								<h2 class="catalog-block__title">
+									Юный IT талант
+								</h2>
+								<span class="catalog-block__reit">
+									<img src="img/star.png" alt="">
+									<span class="catalog-block__reit__num">
+										5.0
+									</span>
+									<span class="catalog-block__rew">
+										(27 отзывов)
+									</span>
+								</span>
+								<h3 class="calatlog-block__subtitle">
+									Сервис для ведения бухгалтерского, налогового и кадрового учета и работы с контрагентами.
+								</h3>
+								<div class="btn-block__wrapper">
+									<a href="#" class="btn-site">
+										<img src="img/icon.png" alt="">
+										Веб сайт
+									</a>
+									<div class="btn-block__wrapper__right">
+										<div class="checkbox__wrapper">
+											<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-6">
+											<label class="wrapper-checkbox__label" for="checkbox-6">
+												В сравнение
+											</label>
+										</div>
+										<a href="#" class="btn-read btn-block__plus">
+											Использую
+										</a>
+									</div>
+								</div>
+							</div>
+							<span class="catalog-content__block__add">
+								<span class="plus">+</span>
+							</span>
+						</div>
+					</div>
+					<div class="catalog-navigation">
+						<ul class="catalog-navigation-list">
+							<li class="navigation-list__item navigation-list__item__active">1</li>
+							<li class="navigation-list__item">2</li>
+							<li class="navigation-list__item">3</li>
+							<span class="dotss">
+								...
+							</span>
+							<li class="navigation-list__item">21</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 catalog__right">
+					<div class="wrap-d">
+						<span class="catalog-title__right">
+							Подбор по параметрам
+						</span>
+						<div class="catalog__right-block">
+							<span class="catalog__right-block__title">
+								Взаимоотношения с клиентами
+							</span>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-1">
+								<label class="wrapper-checkbox__label" for="checkbox-r-1">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-2">
+								<label class="wrapper-checkbox__label" for="checkbox-r-2">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-3">
+								<label class="wrapper-checkbox__label" for="checkbox-r-3">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-4">
+								<label class="wrapper-checkbox__label" for="checkbox-r-4">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-5">
+								<label class="wrapper-checkbox__label" for="checkbox-r-5">
+									Некоторый пункт
+								</label>
+							</div>
+						</div>
+						<div class="catalog__right-block">
+							<span class="catalog__right-block__title">
+								Дополнительный фильтр
+							</span>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-6">
+								<label class="wrapper-checkbox__label" for="checkbox-r-6">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-7">
+								<label class="wrapper-checkbox__label" for="checkbox-r-7">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-8">
+								<label class="wrapper-checkbox__label" for="checkbox-r-8">
+									Некоторый пункт
+								</label>
+							</div>
+						</div>
+						<div class="catalog__right-block">
+							<span class="catalog__right-block__title">
+								Количество пользователей
+							</span>
+							<div class="flex flex-c flex-tire">
+								<input type="text" class="catalog-input__count" placeholder="от">
+								<span class="">-</span>
+								<input type="text" class="catalog-input__count" placeholder="до">
+							</div>
+						</div>
+						<div class="catalog__right-block">
+							<span class="catalog__right-block__title">
+								Длинный селектор
+							</span>
+							<div class="flex flex-c">
+								<select name="" class="select-beast">
+									<option value="1" disabled selected >Выбрать</option>
+									<option value="2">Вариант 2</option>
+									<option value="3">Вариант 3</option>
+								</select>
+							</div>
+						</div>
+						<div class="catalog__right-block">
+							<span class="catalog__right-block__title">
+								Дополнительный фильтр
+							</span>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-9">
+								<label class="wrapper-checkbox__label" for="checkbox-r-9">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-10">
+								<label class="wrapper-checkbox__label" for="checkbox-r-10">
+									Некоторый пункт
+								</label>
+							</div>
+							<div class="wrapper-checkbox">
+								<input class="wrapper-checkbox__input" type="checkbox" id="checkbox-r-11">
+								<label class="wrapper-checkbox__label" for="checkbox-r-11">
+									Некоторый пункт
+								</label>
+							</div>
+						</div>
+						<a href="#" class="catalog__right__btn btn-blue">
+							Найти
+						</a>
+					</div>
+					<div class="categori-block categori-block__bottom">
+						<span class="categori-block__title categori-block__title__after">
+							Интересные категории
+						</span>
+						<div class="master_class__wrapper">
+							<div class="master_class__block flex flex-c m-block__red">
+								<img src="img/left-arrow 1.png" alt="" class="m-block__arrow">
+								<div class="master_class__block__left">
+									<img src="img/bootle-2.png" alt="">
+								</div>
+								<div class="master_class__block__right ">
+									<h3 class="master_class__block__title">
+										Мастер-классы
+									</h3>
+									<div class="flex flex-c">
+										<span class="master_class__block__count">
+											38
+										</span>
+										<div class="master_class__block__count_new">
+											+5 новых
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="master_class__block flex flex-c m-block__purple">
+								<img src="img/left-arrow 1.png" alt="" class="m-block__arrow">
+								<div class="master_class__block__left">
+									<img src="img/bootle-2.png" alt="">
+								</div>
+								<div class="master_class__block__right ">
+									<h3 class="master_class__block__title">
+										Мастер-классы
+									</h3>
+									<div class="flex flex-c">
+										<span class="master_class__block__count">
+											38
+										</span>
+										<div class="master_class__block__count_new">
+											+5 новых
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="master_class__block flex flex-c m-block__blue">
+								<img src="img/left-arrow 1.png" alt="" class="m-block__arrow">
+								<div class="master_class__block__left">
+									<img src="img/bootle-2.png" alt="">
+								</div>
+								<div class="master_class__block__right ">
+									<h3 class="master_class__block__title">
+										Мастер-классы
+									</h3>
+									<div class="flex flex-c">
+										<span class="master_class__block__count">
+											38
+										</span>
+										<div class="master_class__block__count_new">
+											+5 новых
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="question-block">
+						<img src="img/robot.png" alt="">
+						<a href="#" class="question-block__title">
+							<span>Задать вопрос?</span>
+							<img src="img/arrow_b.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12 flex">
+				<div class="footer-logo__wrapper">
+					<a href="/"><img class="footer__logo" src="img/Logo.png" alt=""></a>
+					<span class="footer__logo__cop">
+						Все права защищены. © 2019 <br>
+						KidsTech.ru
+					</span>
+				</div>
+				<ul class="footer-list">
+					<li class="footer-list__name">
+						Топ 10
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Подбор сервисов</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Топ-10 лучших</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Топ-10 бесплатных</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Топ-10 новинок</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Топ-10 бесплатных</a>
+					</li>
+				</ul>
+				<ul class="footer-list">
+					<li class="footer-list__name">
+						Партнерам
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Реклама</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">О сеорвие</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Пользовательское соглашение</a>
+					</li>
+				</ul>
+				<ul class="footer-list">
+					<li class="footer-list__name">
+						Подбор сервисов
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Закзачикам</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Партнерам и клиентам</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Реклама</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">О сеорвие</a>
+					</li>
+					<li class="footer-list__item">
+						<a href="#">Соглашение</a>
+					</li>
+				</ul> 
+				<ul class="footer-list">
+					<li class="footer-list__name">
+						Мы в соц сетях
+					</li>
+					<li class="footer-list__item">
+						<img src="img/Ellipse.png" alt="">
+						<a href="#">Twitter</a>
+					</li>
+					<li class="footer-list__item">
+						<img src="img/Ellipse.png" alt="">
+						<a href="#">Facebook</a>
+					</li>
+					<li class="footer-list__item">
+						<img src="img/Ellipse.png" alt="">
+						<a href="#">LinkedIn</a>
+					</li>
+					<li class="footer-list__item">
+						<img src="img/Ellipse.png" alt="">
+						<a href="#">ВКонтакте</a>
+					</li>
+					<li class="footer-list__item">
+						<img src="img/Ellipse.png" alt="">
+						<a href="#">Telegram</a>
+					</li>
+				</ul> 
+			</div>
+			<div class="col-xl-12 footer-bottom__wrapper">
+				<div class="footer-bottom flex flex-c">
+					<div class="footer-bottom__left">
+						<span class="footer-bottom__left__text">
+							Вся информация на сайте носит ознакомительный характер
+						</span>
+					</div>
+					<div class="footer-bottom__right">
+						<a href="" class="footer-bottom__right__sog">
+							Пользовательское соглашение
+						</a>
+						<a href="" class="footer-bottom__right__email">
+							Почта: <span>contact@kidstech.com</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- libs js -->
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+
+</html>
