@@ -150,13 +150,25 @@
 						</ul>
 					</div>
 					<div class="col-xl-3 btns-wrapper-col">
-						<div class="btns-wrapper flex">
-							<a href="#" class="btn__nav btn__register">
-								Зарегистрироваться
-							</a>
-							<a href="#" class="btn__nav btn__enter btn-blue">
-								<span>Войти</span>
-							</a>
+						<div class="btns-wrapper flex cabinet-row">
+							<div class="top-menu flex flex-c">
+								<div class="top-menu__left">
+									<img src="img/img-small.png" alt="">
+									<span class="top-menu__name">
+										Алексей Иванов
+									</span>
+								</div>
+								<div class="top-menu__right">
+									<a href="#" class="top-menu__right__item email_message">
+										<img src="img/email-black.png" alt="">
+										3
+									</a>
+									<a href="#" class="top-menu__right__item">
+										<img src="img/menu-black.png" alt="">
+										12
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -164,80 +176,209 @@
 		</nav>
 	</header>
 </div>
-<section class="catalog-section__title" id="catalog-section__title">
+<section class="catalog-section__title cabinet-section__title" id="catalog-section__title">
 	<div class="container">
+		<a href="#" class="catalog-section__title__arrow cabinet-arrow">
+			← <span>Назад</span>
+		</a>
 		<div class="cabinet-container">
 			<div class="row">
-				<div class="col-xl-10 cabinet-left">
-					<div class="cabinet-stats">
-						<div class="cabinet-stats__item">
-							<span class="cabinet-stats__item__title">
-								Пользователь:
-							</span>
-							<span class="cabinet-stats__item__result">
-								14 <span>/ 34 650</span>
-							</span>
+				<div class="col-xl-9">
+					<div class="cabinet-left">
+						<div class="cabinet-stats">
+							<div class="cabinet-stats__item">
+								<span class="cabinet-stats__item__title">
+									Пользователь:
+								</span>
+								<span class="cabinet-stats__item__result">
+									14 <span>/ 34 650</span>
+								</span>
+							</div>
+							<div class="cabinet-stats__item">
+								<span class="cabinet-stats__item__title">
+									Читаемых
+								</span>
+								<span class="cabinet-stats__item__result">
+									151
+								</span>
+							</div>
+							<div class="cabinet-stats__item cabinet-stats__item__none">
+								<span class="cabinet-stats__item__title">
+									Читателей:
+								</span>
+								<span class="cabinet-stats__item__result">
+									123
+								</span>
+							</div>
 						</div>
-						<div class="cabinet-stats__item">
-							<span class="cabinet-stats__item__title">
-								Читаемых
-							</span>
-							<span class="cabinet-stats__item__result">
-								151
-							</span>
+						<div class="cabinet-user">
+							<img src="img/user.png" alt="" class="cabinet-user">
 						</div>
-						<div class="cabinet-stats__item cabinet-stats__item__none">
-							<span class="cabinet-stats__item__title">
-								Читателей:
-							</span>
-							<span class="cabinet-stats__item__result">
-								123
-							</span>
+						<div class="cabinet-text">
+							<h1 class="cabinet-user__name">
+								Алексей Иванов
+							</h1>
+							<h2 class="cabinet-user__verifed">
+								Пользователь проверен
+							</h2>
+							<a href="#" class="cabinet-user__email">
+								@alex-link-profile
+								<img src="img/arrow_x.png" alt="">
+							</a>
+							<div class="cabinet-btn flex">
+								<a href="#" class="cabinet-btn__item btn-read">
+									<span>Отправить сообщение</span>
+								</a>
+								<a href="#" class="cabinet-btn__item btn-blue">
+									<span>Подписаться</span>
+								</a>
+							</div>
 						</div>
 					</div>
-					<div class="cabinet-user">
-						<img src="img/user.png" alt="" class="cabinet-user">
-					</div>
-					<div class="cabinet-text">
-						<h1 class="cabinet-user__name">
-							Алексей Иванов
-						</h1>
-						<h2 class="cabinet-user__verifed">
-							Пользователь проверен
-						</h2>
-						<a href="#" class="cabinet-user__email">
-							@alex-link-profile
-							<img src="img/arrow_x.png" alt="">
-						</a>
-						<div class="cabinet-btn flex">
-							<a href="#" class="cabinet-btn__item btn-read">
-								<span>Отправить сообщение</span>
-							</a>
-							<a href="#" class="cabinet-btn__item btn-blue">
-								<span>Подписаться</span>
-							</a>
+					<div class="index-page">
+						<div class="publication-left publication-cabinet">
+							<h2 class="publication__title">
+								Публикации:
+							</h2>
+							<div class="publication-block">
+								<div class="publication-avatar">
+									<img src="img/avatar.png" alt="" class="publication-avatar__img">
+									<span class="publication-avatar__title">
+										Петров Иван
+									</span>
+								</div>
+								<div class="publication__name">
+									Черная Пятница пришла пораньше
+								</div>
+								<p class="publication__text">
+									WireCRM добавили интеграцию сервиса отправки сообщений SMSint, теперь вы можете отправить СМС сообщение из карточки контакта, можете отправить сообщение при клике на номер мобильного телефона. SMSint — сервис массовых CMC рассылок в Москве и регионах России. Услуги сервиса ориентированы на решение задач по отправке sms клиентам и автоматизации смс информирования. Сервис можно использовать для отправки автоматических сообщений по триггерам и для массовых рассылок.
+								</p>
+								<div class="publication-block__bottom flex flex-c">
+									<a href="#" class="publication-block__btn btn-read">
+										<span>Подробннее</span>
+									</a>
+									<div class="publication-block__tags">
+										<span class="publication-block__date">
+											Опубликовано: 12 марта
+										</span>
+										<span class="publication-block__type">
+											Онлайн-школы
+										</span>
+										<span class="publication-block__view">
+											<img src="img/eye.png" alt="">
+											152
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="publication-block">
+								<div class="publication-avatar">
+									<img src="img/avatar.png" alt="" class="publication-avatar__img">
+									<span class="publication-avatar__title">
+										Петров Иван
+									</span>
+								</div>
+								<div class="publication__name">
+									Черная Пятница пришла пораньше
+								</div>
+								<p class="publication__text">
+									WireCRM добавили интеграцию сервиса отправки сообщений SMSint, теперь вы можете отправить СМС сообщение из карточки контакта, можете отправить сообщение при клике на номер мобильного телефона. SMSint — сервис массовых CMC рассылок в Москве и регионах России. Услуги сервиса ориентированы на решение задач по отправке sms клиентам и автоматизации смс информирования. Сервис можно использовать для отправки автоматических сообщений по триггерам и для массовых рассылок.
+								</p>
+								<div class="publication-block__bottom flex flex-c">
+									<a href="#" class="publication-block__btn btn-read">
+										<span>Подробннее</span>
+									</a>
+									<div class="publication-block__tags">
+										<span class="publication-block__date">
+											Опубликовано: 12 марта
+										</span>
+										<span class="publication-block__type">
+											Онлайн-школы
+										</span>
+										<span class="publication-block__view">
+											<img src="img/eye.png" alt="">
+											152
+										</span>
+									</div>
+								</div>
+							</div>
 						</div>
+					</div>
+					<div class="catalog-navigation">
+						<ul class="catalog-navigation-list">
+							<li class="navigation-list__item navigation-list__item__active">1</li>
+							<li class="navigation-list__item">2</li>
+							<li class="navigation-list__item">3</li>
+							<li class="dotss">
+								...
+							</li>
+							<li class="navigation-list__item">21</li>
+						</ul>
 					</div>
 				</div>
-				<div class="col-xl-2">
-					
+				<div class="col-xl-3 rol-none">
+					<div class="cabinet-settings">
+						<a href="#" class="cabinet-settings__item cabinet-settings__item__active">
+							<div class="img-wrapper__settings">
+								<img src="img/lenta.png" alt="">
+							</div>
+							<span class="cabinet-settings__item__name">
+								Лента
+							</span>
+						</a>
+						<a href="#" class="cabinet-settings__item">
+							<div class="img-wrapper__settings">
+								<img src="img/email-l.png" alt="">
+							</div>
+							<span class="cabinet-settings__item__name">
+								Сообщения
+							</span>
+						</a>
+						<a href="#" class="cabinet-settings__item">
+							<div class="img-wrapper__settings">
+								<img src="img/marketing.png" alt="">
+							</div>
+							<span class="cabinet-settings__item__name">
+								Публикации
+							</span>
+						</a>
+						<a href="#" class="cabinet-settings__item">
+							<div class="img-wrapper__settings">
+								<img src="img/bookmark.png" alt="">
+							</div>
+							<span class="cabinet-settings__item__name">
+								Закладки
+							</span>
+						</a>
+						<a href="#" class="cabinet-settings__item cabinet-settings__item_s">
+							<div class="img-wrapper__settings">
+								<img src="img/setting.png" alt="">
+							</div>
+							<span class="cabinet-settings__item__name">
+								Настройки
+							</span>
+						</a>
+						<a href="#" class="cabinet-settings__item">
+							<div class="img-wrapper__settings">
+								<img src="img/exit.png" alt="">
+							</div>
+							<span class="cabinet-settings__item__name">
+								Выход
+							</span>
+						</a>
+					</div>
+					<div class="question-block">
+						<img src="img/robot.png" alt="">
+						<a href="#" class="question-block__title">
+							<span>Задать вопрос?</span>
+							<img src="img/arrow_b.png" alt="">
+						</a>
+					</div>
+					<a href="#" class="btn-read cabinet-podbor__btn">
+						<span>Закажите подбор сервиса</span>
+					</a>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="catalog-navigation">
-			<ul class="catalog-navigation-list">
-				<li class="navigation-list__item navigation-list__item__active">1</li>
-				<li class="navigation-list__item">2</li>
-				<li class="navigation-list__item">3</li>
-				<li class="dotss">
-					...
-				</li>
-				<li class="navigation-list__item">21</li>
-			</ul>
 		</div>
 	</div>
 </section>
