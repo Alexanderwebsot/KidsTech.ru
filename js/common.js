@@ -16,6 +16,24 @@ $(document).ready(function () {
   	let menu = $('.menu-block');
   	$(menu).toggleClass('menu-block__active');
   })
+  let menu = $('.modal-wrapper');
+  $(menu).hide()
+  $(menu).addClass("modal-active");
+  $('.btn__enter').on('click', function() {
+    let menu = $('.modal__enter')
+    $(menu).show("slow")
+    return false;
+  })
+  $('.btn__register').on('click', function() {
+    let menu = $('.modal__registration')
+    $(menu).show("slow")
+    return false;
+  })
+  $('.modal-exit').on('click', function() {
+    let menu = $('.modal-wrapper')
+    $(menu).hide(300)
+    return false;
+  })
   $('ul.tabs li').click(function(){
   		var tab_id = $(this).attr('data-tab');
 

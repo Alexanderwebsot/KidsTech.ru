@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>KidsTesh.ru - catalog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<!-- title icon-->
+	<link rel="shortcut icon" href="img/Favicon.ico">
+	<!-- libs css-->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://vk.com/js/api/openapi.js?167"></script>
+</head>
+<style>
+	.modal__enter{
+		display: flex!important;
+	}
+	.modal-wrapper::after{
+		background-image: url('img/login-bg.jpg');
+		background-size: cover;
+	}
+</style>
+<body>
+<div class="modal-wrapper modal__enter">
+	<div class="modal-window">
+		<img class="modal-exit" src="img/close-cross.png" alt="">
+		<div class="modal-window__padding">
+			<h2 class="modal-window__title">
+				Вход
+			</h2>
+			<div class="modal-window-label">
+				<input type="text" class="modal__input" placeholder="Логин">
+				<input type="text" class="modal__input" placeholder="Пароль">
+				<a href="#" class="modal-window__password">
+					Забыли пароль?
+				</a>
+			</div>
+			<div class="modal-window-btns">
+				<a href="#" class="btn-read modal-window__btn">
+					<span>Войти</span>
+				</a>
+				<span class="modal-window-line">
+					или
+				</span>
+				<a href="#" class="btn-blue modal-window__btn">
+					<span>Зарегистрироваться</span>
+				</a>
+			</div>
+		</div>
+		<div class="modal-soc__wrapper">
+			<span class="modal-soc__title">
+				Войти через:
+			</span>
+			<a href="#" class="modal-soc__a">
+				<img src="img/Ellipse.png" alt="">
+			</a>
+			<a href="#" class="modal-soc__a">
+				<img src="img/Ellipse.png" alt="">
+			</a>
+			<a href="#" class="modal-soc__a">
+				<img src="img/Ellipse.png" alt="">
+			</a>
+			<a href="#" class="modal-soc__a">
+				<img src="img/Ellipse.png" alt="">
+			</a>
+		</div>
+	</div>
+</div>
+<!-- libs js -->
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+</script>
+</body>
+
+</html>
